@@ -1,10 +1,4 @@
-rsschool-cv
-
-====
-
 # Talakin Valentin
-
-====
 
 ## Contact info:
 
@@ -13,4 +7,4 @@ rsschool-cv
 - GitHub: [Vitny][link1]
 - Telegram: [valentinn][link1]
 
-[link1][https://youtu.be/dQw4w9WgXcQ?si=yTUbHw9XbmyopRGl]
+[link1]: https://youtu.be/dQw4w9WgXcQ?si=yTUbHw9XbmyopRGl

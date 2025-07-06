@@ -21,7 +21,6 @@ I’m looking for new challenges where I can apply my communication skills, tech
 
 ## Skills:
 
--
 - Javascript (Basic)
 - HTML5, CSS3
 - Git, GitHub

@@ -8,3 +8,39 @@
 - Telegram: [valentinn][link1]
 
 [link1]: https://youtu.be/dQw4w9WgXcQ?si=yTUbHw9XbmyopRGl
+
+## About myself
+
+With over 8 years of experience in technical support and IT systems implementation, I’ve built my career around helping teams use technology effectively. My journey began in retail and service industries, where I provided hands-on support, conducted staff training, and maintained internal knowledge bases.
+
+Currently, I work as an IT support manager in a medical clinic, where I’m responsible for managing medical information systems (MIS), collecting feedback, documenting processes, and leading employee onboarding sessions. I’m actively involved in Agile-based project work, using tools like Kaiten, and regularly analyze new software solutions for internal use.
+
+Alongside support roles, I also work with UI/UX design — creating mobile and web interfaces using Figma, conducting user flow analysis, and delivering pixel-perfect design solutions.
+
+I’m looking for new challenges where I can apply my communication skills, technical background, and passion for improving user experience in a full-time or remote role.
+
+## Skills:
+
+-
+- Javascript (Basic)
+- HTML5, CSS3
+- Git, GitHub
+- VS Code
+- Figma
+
+## Code Example
+
+```
+alert("Hello, World!");
+```
+
+## Experience
+
+- **Excimer Ophthalmology Clinic, Saint Petersburg** — **Medical Information Systems Support Manager**, Feb 2024 – Present
+- **Decent (Remote)** — **UI/UX Designer**, Jul 2023 – Aug 2023
+- **IKEA – Atlantic City Design Studio**, Saint Petersburg — **Technical Support & Home Furnishing Specialist**, Mar 2017 – Aug 2022
+- **Pizza Chain Quality Control Center,** Saint Petersburg — **Deputy Manager, Apr 2015 – Sep 2016**
+
+## English
+
+**B2** — stronger skills in reading and listening than in writing and speaking.

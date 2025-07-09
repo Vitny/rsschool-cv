@@ -1,0 +1,19 @@
+.github-link {
+  display: flex;
+  align-items: center;
+  margin: 4px;  
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: var(--light-gray-color);
+}
+
+:root {
+  --light-gray-color: #727272;
+}

@@ -1,7 +1,21 @@
+h1 {
+  text-align: center
+}
+
+.my-name {
+  font-size: 28px;
+}
+
 .github-link {
   display: flex;
   align-items: center;
-  margin: 4px;  
+  margin: 4px;
+}
+
+code {
+  background-color: #f0d4ee;
+  margin: 28px;
+  padding: 8px;
 }
 
 footer {
@@ -11,9 +25,9 @@ footer {
   padding: 12px;
   font-size: 0.9rem;
   color: #ffffff;
-  background-color: var(--light-gray-color);
+  background-color: var(--gray-color);
 }
 
 :root {
-  --light-gray-color: #727272;
+  --gray-color: #727272;
 }

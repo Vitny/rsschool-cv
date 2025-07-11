@@ -2,6 +2,11 @@
   font-family: "Inter", sans-serif;
 }
 
+header {
+  display: flex;
+  margin: 48px 0 48px 36px;
+}
+
 h1 {
   margin: 12px 0 0;
   font-weight: 400;
@@ -16,11 +21,6 @@ h2 {
 
 h3 {
   margin: 12px 0 4px;
-}
-
-header {
-  display: flex;
-  margin: 48px 0 48px 36px;
 }
 
 footer {
@@ -50,16 +50,7 @@ a {
   padding: 8px;
   margin: 0 8px 8px;
   font-weight: 800;
-    background: linear-gradient(
-    270deg,
-    yellow,
-    red,
-    orange,
-    yellow,
-    red,
-    orange,
-    yellow
-  );
+    background: linear-gradient(270deg, yellow, red, orange, yellow, red, orange, yellow);
 }
 
 .nav-menu {
@@ -115,5 +106,8 @@ a {
   border: 4px double;
   border-image: linear-gradient(45deg, yellow, red, orange, yellow, red, orange, yellow) 1;
   width: 200px;
-  height: 200px;
+}
+
+.attention {
+  font-style: italic;
 }

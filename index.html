@@ -2,70 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>CV Talakin Valya</title>
 </head>
 
-<body>
+<body class="page">
+    <nav>
+        <ul class="nav-menu">
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#about-me">About me</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+        </ul>
+    </nav>
     <header>
-        <h1>my Little CV</h1>
-        <h2 class="my-name">Talakin Valentin</h2>
+        <img class="avatar" src="imgs/user-avatar.jpg" alt="user-avatar">
+        <div class="name-info">
+        <h1>
+            Talakin
+            <br>
+            Valentin
+        </h1>
+        <h2 id="joke">HTML master king pro</h2>
+        </div>
     </header>
 
-    <main>
-    <div>
-        <h2>Contact info</h2>
+    <main class="content">
+    <section class="side-content">
+        <div>
+            <h2 id="contact">contact</h2>
+            <ul>
+                <li>Phone: +7 000 123 45 67</li>
+                <li>E-mail: vitny@ggggg.com</li>
+                <li>GitHub: <a href="https://github.com/Vitny">Vitny</a></li>
+                <li>Telegram: <a href="https://youtu.be/dQw4w9WgXcQ?si=yTUbHw9XbmyopRGl">vvalentinn</a></li>
+            </ul>
+        </div>
+        <div>
+        <h2 id="skills">skills</h2>
+        <h3>Hard skills</h3>
         <ul>
-            <li>Phone: +7 900 123 45 67</li>
-            <li>E-mail: <a href="https://youtu.be/dQw4w9WgXcQ?si=yTUbHw9XbmyopRGl">vitny@ggggg.com</a></li>
-            <li>GitHub: <a href="https://github.com/Vitny">Vitny</a></li>
-            <li>Telegram: <a href="https://youtu.be/dQw4w9WgXcQ?si=yTUbHw9XbmyopRGl">valentinn</a></li>
-        </ul>
-    </div>
-    <div>
-        <h2>My Experience</h2>
-        <p>With over 8 years of experience in technical support and IT systems implementation, I’ve built my career around helping teams use technology effectively. My journey began in retail and service industries, where I provided hands-on support, conducted staff training, and maintained internal knowledge bases. </p>
-        <p>Currently, I work as an IT support manager in a medical clinic, where I’m responsible for managing medical information systems (MIS), collecting feedback, documenting processes, and leading employee onboarding sessions. I’m actively involved in Agile-based project work, using tools like Kaiten, and regularly analyze new software solutions for internal use.</p>
-        <p>Alongside support roles, I also work with UI/UX design — creating mobile and web interfaces using Figma, conducting user flow analysis, and delivering pixel-perfect design solutions.</p>
-        <p>Im looking for new challenges where I can apply my communication skills, technical background, and passion for improving user experience</p>
-    </div>
-    <div>
-        <h2>Skills</h2>
-        <h3>Hard</h3>
-        <ul>
-            <li>Javascript (Basic)</li>
+            <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Figma</li>
             <li>Git, GitHub</li>
             <li>VS Code</li>
-            <li>Figma</li>
         </ul>
         <h3>English level</h3>
-        <p><b>B2</b> — stronger skills in reading and listening than in writing and speaking.</p>
-    </div>
-    <div>
-        <h2>Code Example</h2>
-        <code>alert("Hello, World!")</code>
-    </div>
-    <div>
-        <h2>Experience</h2>
-        <ul>
-            <li>Excimer Ophthalmology Clinic, Saint Petersburg — Medical Information Systems Support Manager, Feb 2024 — Present</li>
-            <li>Decent (Remote) — UI/UX Designer, Jul 2023 — Aug 2023</li>
-            <li>IKEA — Atlantic City Design Studio, Saint Petersburg — Technical Support &amp; Home Furnishing Specialist, Mar 2017 — Aug 2022</li>
-            <li>Pizza Chain Quality Control Center, Saint Petersburg — Deputy Manager, Apr 2015 — Sep 2016</li>
-        </ul>
-    </div>
+        <span><b>C1</b> — stronger skills in reading and listening than in writing and speaking.</span>
+        </div>
+    </section>
+    <section class="main-content">
+        <div>
+            <h2 id="about-me">about me</h2>
+            <p>With over 8 years of experience in technical support and IT systems implementation, Ive built my career around helping teams use technology effectively. My journey began in retail and service industries, where I provided hands-on support, conducted staff training, and maintained internal knowledge bases. </p>
+            <p>Currently, I work as an IT support manager in a medical clinic, where Im responsible for managing medical information systems (MIS), collecting feedback, documenting processes, and leading employee onboarding sessions. I’m actively involved in Agile-based project work, using tools like Kaiten, and regularly analyze new software solutions for internal use.</p>
+            <p>Alongside support roles, I also work with UI/UX design — creating mobile and web interfaces using Figma, conducting user flow analysis, and delivering pixel-perfect design solutions.</p>
+            <p>Im looking for new challenges where I can apply my skills, technical background, and passion for technology</p>
+        </div>
+        <div>
+            <h2>code example</h2>
+            <span>behold my peak perfomance!</span>
+            <pre class="code-example">function hello (i = 0, chars = ['h','e','l','l','o',' ','w','o','r','l','d']) {
+  if (i &lt; chars.length) {
+    process.stdout.write(chars[i]);
+    hello(i + 1, chars);
+  }
+}
+hello();
+            </pre>
+        </div>
+        <div>
+            <h2 id="experience">experience</h2>
+            <ul>
+                <li>Excimer Ophthalmology Clinic, Saint Petersburg: Medical Information Systems Support Manager, Feb 2024 — Present</li>
+                <li>Decent (Remote): UI/UX Designer, Jul 2023 — Jan 2024</li>
+                <li>IKEA — Atlantic City Design Studio, Saint Petersburg: Technical Support &amp; Home Furnishing Specialist, Mar 2017 — Aug 2022</li>
+                <li>Pizza Chain Quality Control Center, Saint Petersburg: Deputy Manager, Apr 2015 — Sep 2016</li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="education">education</h2>
+            <ul>
+                <li>St. Petersburg Technical College of Management and Commerce, 2010 — 2014</li>
+                <li>CONTENTED, UX/UI Designer, 2022 — 2023</li>
+                <li>RSSchool, Front-end Developer, 2025 — Present</li>
+            </ul>
+        </div>
+    </section>
     </main>
+
     <footer>
-    <a class="github-link" href="https://github.com/Vitny">
-        <img src="imgs/github-logo.svg" alt="GitHub logo" width="30" height="30">
-        <p>My Github</p>
-    </a>
-    <p>2025</p>
-    <a href="https://rs.school/js/">
+    <a href="https://rs.school/courses/javascript-preschool-ru">
         <img src="imgs/rs-school-logo.svg" alt="RSSchool logo" width="70" height="24">
     </a>
+    <a class="github-link" href="https://github.com/Vitny">
+        <img src="imgs/github-logo.svg" alt="GitHub logo" width="30" height="30">
+        <span>My Github</span>
+    </a>
+    <span>2025</span>
     </footer>
 </body>
 </html>

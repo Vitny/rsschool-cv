@@ -1,0 +1,113 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  margin: 48px 0 48px 36px;
+}
+
+h1 {
+  margin: 12px 0 0;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-size: 36px;
+  margin: 8px 0 4px;
+}
+
+h3 {
+  margin: 12px 0 4px;
+}
+
+footer {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  box-sizing: border-box;
+  background-color: #d1d1d1;
+}
+
+ul {
+  padding: 0 0 0 12px;
+  margin: 0;
+  list-style: square;
+}
+
+a {
+    color:  black;
+}
+
+#joke {
+  font-variant: normal;
+  font-size: 28px;
+  color: rgb(36, 36, 36);
+  padding: 8px;
+  margin: 0 8px 8px;
+  font-weight: 800;
+    background: linear-gradient(270deg, yellow, red, orange, yellow, red, orange, yellow);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #d1d1d1;
+  padding: 24px;
+}
+
+.page {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+}
+
+.side-content {
+  flex: 0 0 260px;
+  padding: 24px;
+  background-color: rgba(235, 255, 179, 0.507);
+}
+
+.main-content {
+  margin: 0 0 32px 16px;
+  padding: 24px;
+}
+
+.name-info {
+  margin: 0 40px 0;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+}
+
+.code-example {
+  background-color: #f0d4ee;
+  margin: 0 32px;
+  padding: 24px 24px 4px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.avatar {
+  border: 4px double;
+  border-image: linear-gradient(45deg, yellow, red, orange, yellow, red, orange, yellow) 1;
+  width: 200px;
+}
+
+.attention {
+  font-style: italic;
+}

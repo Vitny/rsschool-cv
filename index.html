@@ -2,12 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV Talakin Valentin</title>
 </head>
-<body>
 
+<body class="page">
+    <nav>
+        <ul class="nav-menu">
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#about-me">About me</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img class="avatar" src="imgs/user-avatar.jpg" alt="user-avatar">
+        <div class="name-info">
+        <h1>
+            Talakin
+            <br>
+            Valentin
+        </h1>
+        <h2 id="joke">HTML master king pro</h2>
+        </div>
+    </header>
+
+    <main class="content">
+    <section class="side-content">
+        <div>
+            <h2 id="contact">contact</h2>
+            <ul>
+                <li>Discord: vitny.</li>
+                <li>E-mail: thevitny@gmail.com</li>
+                <li>Telegram:
+                    <a href="https://youtu.be/dQw4w9WgXcQ"> vvalentinn</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+        <h2 id="skills">skills</h2>
+        <h3>Hard skills</h3>
+        <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Figma</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+        </ul>
+        <h3>English level</h3>
+        <span>C1 — stronger skills in reading and listening than in writing and speaking.</span>
+        </div>
+        <div>
+            <h2 id="projects">projects</h2>
+            <ul>
+                <li>
+                    <a href="https://vitny.github.io/rsschool-cv/"> my CV</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="main-content">
+        <div>
+            <h2 id="about-me">about me</h2>
+            <p>With over 8 years of experience in technical support and IT systems implementation, Ive built my career around helping teams use technology effectively. My journey began in retail and service industries, where I provided hands-on support, conducted staff training, and maintained internal knowledge bases. </p>
+            <p>Currently, I work as an IT support manager in a medical clinic, where Im responsible for managing medical information systems (MIS), collecting feedback, documenting processes, and leading employee onboarding sessions. I’m actively involved in Agile-based project work, using tools like Kaiten, and regularly analyze new software solutions for internal use.</p>
+            <p>Alongside support roles, I also work with UI/UX design — creating mobile and web interfaces using Figma, conducting user flow analysis, and delivering pixel-perfect design solutions (as you might seen at my CV).</p>
+            <p>Im looking for new challenges where I can apply my skills, technical background, and passion for technology</p>
+        </div>
+        <div>
+            <h2>code example</h2>
+            <span class="attention">behold my peak perfomance!</span>
+            <pre class="code-example">function hello (i = 0, chars = ['h','e','l','l','o',' ','w','o','r','l','d']) {
+  if (i &lt; chars.length) {
+    process.stdout.write(chars[i]);
+    hello(i + 1, chars);
+  }
+}
+hello();
+            </pre>
+        </div>
+        <div>
+            <h2 id="experience">experience</h2>
+            <ul>
+                <li>Excimer Ophthalmology Clinic, Saint Petersburg: Medical Information Systems Support Manager, Feb 2024 — Present</li>
+                <li>Decent (Remote): UI/UX Designer, Jul 2023 — Jan 2024</li>
+                <li>IKEA — Atlantic City Design Studio, Saint Petersburg: Technical Support &amp; Home Furnishing Specialist, Mar 2017 — Aug 2022</li>
+                <li>Pizza Chain Quality Control Center, Saint Petersburg: Deputy Manager, Apr 2015 — Sep 2016</li>
+            </ul>
+        </div>
+        <div>
+            <h2>education</h2>
+            <ul>
+                <li>St. Petersburg Technical College of Management and Commerce, 2010 — 2014</li>
+                <li>CONTENTED, UX/UI Designer, 2022 — 2023</li>
+                <li>RSSchool, Front-end Developer, 2025 — Present</li>
+            </ul>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+    <a href="https://rs.school/courses/javascript-preschool-ru">
+        <img src="imgs/rs-school-logo.svg" alt="RSSchool logo" width="72" height="24">
+    </a>
+    <a class="github-link" href="https://github.com/Vitny">
+        <img src="imgs/github-logo.png" alt="GitHub logo" width="84">
+    </a>
+    <span>2025</span>
+    </footer>
 </body>
 </html>
